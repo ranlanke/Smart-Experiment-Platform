@@ -1,0 +1,15 @@
+.richtext-paper {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 794px; /* A4纸宽度 */
+  min-height: 1123px; /* A4纸高度 */
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 48px 60px 48px 60px;
+  outline: none;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.8;
+  text-align: left;
+  font-family: '微软雅黑', '黑体', '宋体', '楷体', '仿宋', sans-serif;
+}

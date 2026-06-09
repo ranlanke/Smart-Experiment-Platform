@@ -1,0 +1,63 @@
+/* 全局头部标题、导航栏等响应式样式 */
+.center-title,
+.center-title-banner {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.circular-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+  background-color: #1e73be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.university-logo {
+  width: 200%;
+  height: 200%;
+  object-fit: contain;
+  transform: translate(3%, 3%);
+}
+@media (max-width: 1200px) {
+  .center-title,
+  .center-title-banner {
+    font-size: 48px;
+  }
+  .banner-content {
+    gap: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .center-title,
+  .center-title-banner {
+    font-size: 32px;
+  }
+  .banner-content {
+    gap: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .center-title,
+  .center-title-banner {
+    font-size: 20px;
+  }
+  .banner-content {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .circular-logo {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
